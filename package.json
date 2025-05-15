@@ -88,9 +88,13 @@
     "tsconfig-paths": "^4.2.0",
 <<<<<<< HEAD
     "tslib": "^2.8.1",
+<<<<<<< HEAD
     "typescript": "^5.8.3"
 =======
     "tslib": "^2.8.1"
 >>>>>>> fee4fe8 (First commit)
+=======
+    "typescript": "^4.9.5"
+>>>>>>> 89aa3a1 (Updating config files)
   }
 }

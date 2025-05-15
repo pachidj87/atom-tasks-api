@@ -7,7 +7,7 @@ import { initializeApp, cert } from 'firebase-admin/app';
 import { AuthController } from './auth.controller';
 import { AuthService } from './auth.service';
 import { RepositoryService } from '../../services/repository.service';
-import * as serviceAccount from '../../../service-account-key.json';
+import * as serviceAccount from '../../service-account-key.json';
 import authConfig from '../../configs/auth.config';
 
 jest.mock('./auth.service');

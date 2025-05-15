@@ -6,7 +6,7 @@ import { Container } from 'typedi';
 import { initializeApp, cert } from 'firebase-admin/app';
 import { onRequest } from "firebase-functions/v2/https";
 
-import * as serviceAccount from '../service-account-key.json';
+import * as serviceAccount from './service-account-key.json';
 import authConfig from './configs/auth.config';
 
 useContainer(Container);

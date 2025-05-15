@@ -8,7 +8,7 @@ import { initializeApp, cert } from 'firebase-admin/app';
 import { TasksController } from './tasks.controller';
 import { TasksService } from './tasks.service';
 import { RepositoryService } from '../../services/repository.service';
-import * as serviceAccount from '../../../service-account-key.json';
+import * as serviceAccount from '../../service-account-key.json';
 
 jest.mock('./tasks.service');
 

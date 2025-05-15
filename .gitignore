@@ -2,6 +2,7 @@
 /node_modules
 /pnpm-lock.yaml
 /requests.http
+/src/service-account-key.json
 /service-account-key.json
 /src/service-account-key.json
 /dist
