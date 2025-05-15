@@ -4,16 +4,15 @@ import path from 'path';
 import { createExpressServer, useContainer } from 'routing-controllers';
 import { Container } from 'typedi';
 import { initializeApp, cert } from 'firebase-admin/app';
-
-import { AppController } from './controllers/app.controller';
+import { onRequest } from "firebase-functions/v2/https";
 
 import * as serviceAccount from '../service-account-key.json';
 import authConfig from './configs/auth.config';
 
 useContainer(Container);
 
-const PORT = process.env.APP_PORT || 3000;
-console.info(`Starting server on http://localhost:${PORT}`);
+// const PORT = process.env.APP_PORT || 3000;
+// console.info(`Starting server on http://localhost:${PORT}`);
 
 // Initialize Firebase Admin SDK
 // Ensure you have the service account key JSON file in the correct path
@@ -48,6 +47,8 @@ const app = createExpressServer(
   }
 );
 
-app.listen(PORT);
+// app.listen(PORT);
 
-export default app;
+export const api = onRequest(app);
+
+// export default app;

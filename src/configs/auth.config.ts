@@ -1,4 +1,3 @@
-import jwt from 'jsonwebtoken';
 import { Container } from 'typedi';
 
 import { Action } from 'routing-controllers';

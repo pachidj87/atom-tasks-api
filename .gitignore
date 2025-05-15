@@ -3,3 +3,5 @@
 /pnpm-lock.yaml
 /requests.http
 /service-account-key.json
+/dist
+firebase-debug.log
