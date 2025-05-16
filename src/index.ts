@@ -47,8 +47,8 @@ const app = createExpressServer(
   }
 );
 
-// app.listen(PORT);
+app.listen(PORT);
 
 export const api = onRequest(app);
 
-// export default app;
+export default app;
