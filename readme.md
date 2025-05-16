@@ -11,7 +11,7 @@ Atom Tasks API is a lightweight and efficient task management API built with Exp
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (v14 or higher)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [npm](https://www.npmjs.com/), [pnpm](https://pnpm.io/) or [yarn](https://yarnpkg.com/)
 
 ## Installation
 
